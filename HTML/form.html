@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form >
+            <!-- Text -->
+            <label for="fname"> First Name  
+                <input id="fname" name="fname" type="text" placeholder="Jon" required>
+            </label>
+            <label for="lname"> Last Name 
+                <input id="lname" name="lname" type="text" placeholder="Jon" required>
+            </label>
+            <br>
+            
+            <!-- Checkbox -->
+            <label> Education Status :
+                <input id="primary" name="education" type="checkbox" value="1">
+                <label for="primary" >Primary</label>
+                <input id="highschool" name="education" type="checkbox" value="2">
+                <label for="highschool" >Highschool</label>
+                <input id="interschool" name="education" type="checkbox" value="3">
+                <label for="interschool" >Interschool</label>
+                <input id="graduate" name="education" type="checkbox" value="4">   
+                <label for="graduate" >Graduate</label>        
+            </label>
+            <br>
+
+             <!-- Radio -->
+            <label> Gender :
+                <input id="male" name="gender" type="radio" >
+                <label for="male"> Male </label>
+                <input id="female" name="gender" type="radio" >
+                <label for="female"> Female</label>
+                <input id="other" name="gender" type="radio">
+                <label for="other"> Other</label>
+            </label>
+            <br>
+
+            <!-- 
+                If input is inside the label then for and id are not required 
+                but advised to keep to maintain the readability
+             -->
+
+            <!-- Email -->
+            <label for="email_id"> Email
+                <input id="email_id" name="email_id" type="email" placeholder="abc@xyz.com" required>
+            </label>
+            <br>
+
+            <!-- Password -->
+            <label for="password"> Password 
+                <input id="password" name="password" type="password" required>
+            </label>
+            <br>
+
+            <!-- Date -->
+            <label for="dob"> DOB 
+                <input id ="dob" name="dob" type="date">
+            </label>
+            <br>
+
+            <label> I agree to share my details :
+                <input name="answer" type="radio" value="YES"> 
+                <label> YES </label>
+                <input name="answer" type="radio" value="NO">
+                <label> NO </label>
+            </label>
+            <br>
+
+            <!-- Text Area -->
+            <label for="feedback">Feedback<br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Tell us about your experience on website..."></textarea>
+            </label>
+            <br>
+            <!-- 
+                Select  
+                name result will store value ranging from 1 to 5
+            -->
+        
+            <label for="result"> On scale of (1-5) rate your experience
+                <select id="result" name="result">
+                    <option value="1">Very Bad</option>
+                    <option value="2">Bad</option>
+                    <option value="3">Average</option>
+                    <option value="4">Good</option>
+                    <option value="5">Very Good</option>
+                </select>
+
+            </label>
+            <br>
+            <button>Submit</button>
+        </form>
+
+
+    </body>
+</html>

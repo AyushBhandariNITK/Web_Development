@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Pseudo Class Selector </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="pseudo_class_selector.css">
+    </head>
+    <body>
+        <!-- active -->
+        <h1><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo Class Selector</a></h1>
+        
+        <!-- nth-of-the-type -->
+        <div class="chessboard">
+            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>
+            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>
+            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>
+            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>
+            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div>            
+        </div>
+        <br>
+        
+        <!-- hover -->
+        <div class="form">
+            <form>
+                <label for="fname">First Name
+                    <input id="fname" name="fname" type="text" placeholder="Jon" required>
+                </label>
+                <br>
+                <label for="lname">Last name
+                    <input id="lname" name="lname" type="text" placeholder="Snow" required>
+                </label>
+                <br>
+                
+                <!-- checked -->
+                <br>
+                    <label> Education Status :
+                        <input id="primary" name="education" type="checkbox" value="1">
+                        <label for="primary" >Primary</label>
+                        <input id="highschool" name="education" type="checkbox" value="2">
+                        <label for="highschool" >Highschool</label>
+                        <input id="interschool" name="education" type="checkbox" value="3">
+                        <label for="interschool" >Interschool</label>
+                        <input id="graduate" name="education" type="checkbox" value="4">   
+                        <label for="graduate" >Graduate</label>        
+                    </label>
+                    <br>
+                    <label>Do you agree with terms and condition ?
+                        <br>
+                        <input name="agree" type="radio" value="YES" required>
+                        <label> YES</label>
+
+                        <input name="agree" type="radio"  value="NO" required>
+                        <label> NO</label>
+                    </label>
+                    <br>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+
+</html>

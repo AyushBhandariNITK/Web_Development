@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height:100%
+    width:100%;
+    margin:0;
+    background: rgb(219, 242, 250);
+}
+header{
+    display: flex;
+    flex-shrink:0;
+    height:20%;
+    width: 100%;
+    margin:0;
+    background: rgb(149, 211, 149);
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    align-items: flex-start;
+    margin:2%;
+    width:100%
+}
+img{
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+#general-store{
+ height:
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: hotpink;
+}

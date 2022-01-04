@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This survey form is intended to used only for testing purpose.</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name
+                <input id="name" name="name" type="name" placeholder="Jon Snow"required>
+            </label>
+            <br>
+
+            <label id="email-label" for="email">Email
+                <input id="email" name="email" type="email" placeholder="abc@xyz.com" required>
+            </label>
+            <br>
+
+            <label id="number-label" for="number">Choose a number in range 0-10.
+                <input id="number" name="number" type="number" min="0" max="10" placeholder="5" >
+            </label>
+            <br>
+
+                    
+
+
+            <label> Gender :
+                <input id="male" name="gender" type="radio" value="male" >
+                <label for="male"> Male </label>
+                <input id="female" name="gender" type="radio" value="female" >
+                <label for="female"> Female</label>
+                <input id="other" name="gender" type="radio" value="other">
+                <label for="other"> Other</label>
+
+            </label>
+            <br>
+
+            <!-- Checkbox -->
+            <label>Skills :
+                <input id="html" name="skills" type="checkbox" value="1">
+                <label for="html" >HTML</label>
+                <input id="css" name="skills" type="checkbox" value="2">
+                <label for="css" >CSS</label>
+                <input id="js" name="skills" type="checkbox" value="3">
+                <label for="js" >JavaScript</label>
+     
+            </label>
+            <br>
+            <label>Additional Info<br>
+                <textarea name="add-info" id="add-info" cols="30" rows="10" placeholder="Enter relevant skills"></textarea>
+            </label>
+            <br>
+
+            <label for="dropdown"> On scale of (1-5) rate your experience
+                <select id="dropdown" name="result">
+                    <option value="1">Very Bad</option>
+                    <option value="2">Bad</option>
+                    <option value="3">Average</option>
+                    <option value="4">Good</option>
+                    <option value="5">Very Good</option>
+                </select>
+
+            </label>
+            <br>
+            <button id="submit">Submit</button>
+        </form>
+    </body>
+</html>

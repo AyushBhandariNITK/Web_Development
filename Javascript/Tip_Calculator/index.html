@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="calculator-box">
+        <div class="container">
+
+            <div class="container-top">
+                <div class="wrapper">
+                    <label for="bill" class="label">Bill </label>
+                    <input id="bill" type="number"  value="1.00">
+                </div>
+                <div class="wrapper">
+                    <span class="label">Tip :</span>
+                    <span id="tip-amt" >$0.15</span>
+                </div>
+    
+                <hr>
+    
+                <div class="wrapper">
+                    <label >Total Amount :</label>
+                    <span id="total-amt">$1.15</span>
+
+                </div>
+    
+                <div class="wrapper">
+                    <label for="tip">Tip :</label>
+                    <span id="tip-val">15%</span>
+                    <br>
+                    <input id="tip" type="range" min="1" value="15">
+                </div>  
+                <div class="wrapper">
+                    <label for="person">No of Person :</label>
+                    <span id="person-val">2</span>
+                    <br>
+                    <input id="person" type="range" min="1" max="15" value="2" >
+                </div> 
+            </div>
+
+            <div class="container-bottom">
+                <div class="wrapper">
+                    <span > Tip Per Person : </span>
+                    <span id="tip-per-person">$0.07</span>
+                </div>
+                <div class="wrapper">
+                    <span>Total Per Person :</span>
+                    <span id="total-per-person">$0.57</span>
+                </div>
+            </div>
+
+          
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

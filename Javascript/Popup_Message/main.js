@@ -1,4 +1,4 @@
-let popupBtn=document.getElementsByClassName('popup');
+let popupBtn=document.querySelector('.popup');
 let msg=document.querySelector('.msg-box');
 let closeBtn=document.querySelector('.close-btn');
 let overlay=document.getElementById('overlay');

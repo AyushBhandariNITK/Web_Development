@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:linear-gradient(360deg,rgb(202, 202, 170),rgb(250, 171, 25)) fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header{
+
+    padding:2rem;
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    font-weight:100;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:1rem 0;
+    position:relative;
+}
+
+.txt{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-10%);
+    /* transform: translate(-50%,-50%); */
+}
+
+.txt-top{
+    margin:1rem 0;
+    padding:1rem;
+    text-align: center;
+}
+
+.txt-bottom{
+    margin:1rem 0;
+    padding:1rem;
+}
+
+button{
+
+    padding:0.25rem;
+    border-radius: 1rem;
+    width:30%;
+}

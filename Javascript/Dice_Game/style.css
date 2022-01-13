@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:linear-gradient(90deg,rgb(172, 155, 155),rgb(172, 172, 196),rgb(182, 177, 177)) fixed;
+    background-repeat: none;
+}
+
+header{
+
+    font-size:4rem;
+    text-align: center;
+    padding:2rem;
+    font-weight:bolder;
+    color:rgb(31, 32, 37)
+}
+
+.gameArea{
+    position:fixed;
+    top:25%;
+    left:10%;
+    right:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1,.player2{
+    width:30%;
+    height:50vh;
+    border:2px solid black;
+    margin:1rem;
+    font-size:2rem;
+    text-align: center;
+    padding:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    padding:1rem;
+    border:2px solid black;
+    height:25vh;
+    text-align: center;
+    font-weight:900;
+    font-size:xx-large;
+    padding:1rem;
+}
+
+
+
+.dicer{
+    display:grid;
+    grid-template-columns:repeat(3,0.5fr);
+    border:1px solid black;
+    height:50%;
+    width:50%;
+    padding:1rem;
+    /* height:95px;
+    width:95px; */
+    /* margin:auto; */
+
+} 
+
+.roll{
+    position:fixed;
+    bottom:10%;
+    left:45%;
+    font-size:1rem;
+    background-color:rgb(152, 189, 206);
+    border-radius: 0.5rem;
+    padding:4px 1px;
+    width:8vw;
+}
+
+.dot{ 
+    border-radius: 50%;
+    display:inline-block;
+    margin:2px;
+}
+
+.black{
+    background-color: black;
+}
+
+
+.roll:hover{
+    background-color:red;
+    cursor: pointer;
+}

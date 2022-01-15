@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-size:large;
+    line-height:2.5 ;
+}
+
+body{
+    background:linear-gradient(rgb(59, 52, 52),rgb(245, 181, 63)) fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    height:20vh;
+    text-align: center;
+    color:white;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    /* padding:0.5rem; */
+
+}
+
+.test{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding:2rem; */
+}
+
+.box{
+    min-height:30vh;
+    width:50vw;
+    min-width: 500px;
+    /* border:1px solid black; */
+    margin:1rem 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.message{
+    color:coral;
+    display:flex;
+    margin:auto;
+    padding:1rem;
+}
+
+button{
+    width:5vw;
+    min-width: 100px;
+    border-radius: 10%;
+    border:none;
+    margin:0.5rem;
+}
+
+.start:hover{
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+
+}
+
+.typing-text{
+    width:100%;
+    min-height: 25vh;
+    max-height: 35vh;
+    background-color: rgb(0, 0, 0);
+    color: coral;
+    text-align:justify;
+    margin:1rem 0;
+    border:none;
+}
+
+
+
+.result{
+    display: flex;
+    right:20%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:center;
+    /* background-color:black; */
+    color:black;
+    min-height:10vh;
+    width:50vw;
+    min-width: 500px;
+    margin:1rem auto;
+}
+
+.hide{
+    display:none;
+}
+p{
+    padding:0 2rem;
+}
+
+

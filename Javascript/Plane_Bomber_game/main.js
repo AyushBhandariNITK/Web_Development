@@ -56,7 +56,7 @@ function makeBomb(){
         bomb.style.top=bomb.y+"px";
         gameArea.appendChild(bomb);
         player.ready=false;
-        setTimeout(function(){player.ready=true;},250)
+        setTimeout(function(){player.ready=true;},100);
     }
 }
 

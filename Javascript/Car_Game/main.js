@@ -90,7 +90,6 @@ function randomColor(){
 
 function startGame() {
     startScreen.classList.add('hide');
-    // gameArea.classList.remove('hide');
     gameArea.innerHTML="";
     player.start=true;
     player.score=0;

@@ -5,7 +5,7 @@ const startBtn=document.querySelector(".startBtn");
 
 document.addEventListener("keydown",pressOn);
 document.addEventListener("keyup",pressOff);
-document.addEventListener("click",start);
+startBtn.addEventListener("click",start);
 
 let keys={
     space:false,
@@ -38,7 +38,7 @@ function addClass(element,className){
 }
 
 function range(a,b){
-    return Math.floor(Math.random()*b)+a;
+    return Math.floor(Math.random()*(b-a))+a;
 }
 
 function makeBomb(){
